@@ -1,0 +1,22 @@
+.item-1 {
+  /* fixed as same as absolute but this case the itom move with the page */
+  position: fixed;
+  right: 0px;
+  top: 300px;
+}
+.item-2 {
+  /* fixed as same as absolute but this case the itom move with the page */
+  display: flex;
+  position: fixed;
+  bottom: 0%;
+  left: 0px;
+  border-radius: 0;
+  width: 100%;
+  z-index: 1;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
