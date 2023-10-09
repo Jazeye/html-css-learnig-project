@@ -8,6 +8,7 @@ body {
 }
 
 .item-1 {
+  /* Using absolute to remove the normal flow of document */
   position: absolute;
   top: -50px;
   right: -50px;
