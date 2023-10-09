@@ -1,0 +1,7 @@
+.item-1{
+    /* the position Relative access the tob,bottom,left.right,z index */
+    /* Using relative keep the normal flow of document */
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
