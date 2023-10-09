@@ -1,4 +1,4 @@
 .item-1{
-    /* the postion static does not access the tob,bottom,left.right,z index */
+    /* the position static does not access the tob,bottom,left.right,z index */
     position: static;
 }
