@@ -1,0 +1,49 @@
+.container{
+    /* There are two type axis 
+     1 main axis horizontaly
+     2 cross axis  vertically */
+     
+    display: flex;
+    /* flex-direction: row; use specify the direction also row is default */ 
+    
+    /* main axis */
+
+    /* justify-content: space-evenly; */ 
+    /* justify-content: baseline; */
+    /* justify-content: flex-end; */
+    
+    /* cross axis */
+
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+
+    /* This are use to many  boxes or properties position */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+
+    /* this are not same in align-items ,also this is working with the flex wrap ,also this cross axis */
+     /* align-content: space-around; */
+    
+     /* gap: 3em; */
+
+}
+.item-1{
+    /* order: 1; use acess correct or samantically */
+}
+.item-3{
+    /* use to grow and fill the white space */
+    /* flex-grow: 1;  */
+
+    /* flex-shrink: 5; */
+    /* flex-shrink: 0; use keep the size or refuce the shrink */
+
+    /* flex-basis: 250px; use to over right the size */
+
+
+    /* flex: 1; all in one there are 3 values but giving one value to set others automatically */
+
+    /* align-self: center; */
+
+    /* order: -1; to change order the property which first appear */
+}
