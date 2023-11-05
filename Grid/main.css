@@ -1,10 +1,16 @@
-.container{
+/* ----------------------------------------first container start ---------------------------------------- */
+/* .container{
     display: grid;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
     grid-template-columns: 100px 100px 100px 100px 100px 100px;
-}
+    
+    /* auto flow give automatically alligin the item */
 
-.item-1{
+    /* grid-auto-flow: column; 
+    grid-auto-columns: 100px; 
+} */
+
+/* .item-1{
     grid-row: 1/3;
     grid-column: 1/7;
 }
@@ -13,11 +19,117 @@
     /* grid-row: span 2; 
     grid-column: span 2; */
 
-    grid-area: 2 /4/4/6;
-    z-index: 1;
+    /* grid-area: 2 /4/4/6;
+    z-index: 1; 
 }
-.item-3{
+/* .item-3{
     /* grid-area: row-start col-start row-end col-end; this is faster than grid-colum and row */
     /* grid-area: 3 / 1/ 7/ 7; */
-    grid-area: 3 / 1/ -1/ -1;
+    /* grid-area: 3 / 1/ -1/ -1; 
+} */
+/* ----------------------------------------first container end ---------------------------------------- */
+
+/* ----------------------------------------second container start ---------------------------------------- */
+/* .container{
+    display: grid;
+    /* grid-template-rows: 100px 100px ; */
+
+    /* grid-template-rows: repeat(2,100px) ; */
+
+    /* fr means fractional value */
+    /* grid-template-columns: 100px 3fr 1fr; 
+
+    grid-template-columns: 100px minmax(100px,3fr) 1fr;
+
+    /* grid-gap: row colum; */
+    /* grid-gap: 1em 2em; 
+
+} */
+/* ----------------------------------------second container end---------------------------------------- */
+
+/* ----------------------------------------third container start ---------------------------------------- */
+/* .container{
+    display: grid;
+    grid-template-rows: 100px 300px 100px ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    
+    'header header'
+    'main aside'
+    'footer footer'
+    ;
+
 }
+.item-1{
+    grid-area: header;
+}
+.item-2{
+    grid-area: main;
+}
+.item-3{
+    grid-area: aside;
+}
+.item-4{
+    grid-area: footer;
+} */
+/* ----------------------------------------third container end---------------------------------------- */
+
+/* ----------------------------------------forth container start---------------------------------------- */
+/* .container{
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(4, 1fr);
+
+    /* row axis */
+    /* justify-items: center; 
+    /* column axis */
+    /* align-items: start;  
+
+/* } 
+/* .item-1{ */
+    /* justify-self: center; 
+    /* align-self: stretch; */
+    /* align-self: center; 
+} */
+
+/* ----------------------------------------forth container end---------------------------------------- */
+
+/* ----------------------------------------5th container start---------------------------------------- */
+/* .container{
+    display: grid;
+    height: 600px;
+    grid-template-rows: repeat(2,100px);
+    grid-template-columns: repeat(2, 100px);
+
+   /* justify-content: start;
+   align-content: start; */
+
+   /* justify-content: end;
+   align-content: end; */
+
+   /* justify-content: baseline;
+   align-content: baseline; */
+
+   /* justify-content: space-around;
+   align-content: space-around; */
+
+   /* justify-content: space-between;
+   align-content: space-between; */
+
+   /* justify-content: space-evenly;
+   align-content: space-evenly; 
+
+} */
+
+/* ----------------------------------------5th container end---------------------------------------- */
+
+/* ----------------------------------------6th container start---------------------------------------- */
+
+.container{
+    /* responsive grid */
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+
+/* ----------------------------------------6th container end---------------------------------------- */
